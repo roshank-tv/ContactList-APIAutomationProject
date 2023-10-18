@@ -1,0 +1,9 @@
+api/payload/UserDetails.class
+api/endpoints/Routes.class
+api/testcases/ContactTestCases.class
+api/payload/ContactDetails.class
+api/payload/Names.class
+api/testcases/UserTestCases.class
+api/endpoints/ContactsEndPoints.class
+api/endpoints/UsersEndPoints.class
+api/payload/LoginDetails.class

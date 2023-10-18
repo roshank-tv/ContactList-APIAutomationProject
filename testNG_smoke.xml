@@ -1,0 +1,13 @@
+<suite name="MySuite">
+    <test name="smoke">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name = "api.testcases.UserTestCases"/>
+            <class name = "api.testcases.ContactTestCases"/>
+        </classes>
+    </test>
+</suite>

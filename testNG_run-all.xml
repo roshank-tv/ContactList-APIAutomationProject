@@ -1,0 +1,13 @@
+<suite name="MySuite">
+    <test name="run-all">
+        <groups>
+            <run>
+                <include name="run-all"/>
+            </run>
+        </groups>
+        <classes>
+            <class name = "api.testcases.UserTestCases"/>
+            <class name = "api.testcases.ContactTestCases"/>
+        </classes>
+    </test>
+</suite>

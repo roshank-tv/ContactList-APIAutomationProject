@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="12" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-19T00:42:57 IST" name="Surefire suite" finished-at="2023-10-19T00:43:28 IST" duration-ms="30428">
+    <groups>
+      <group name="regression">
+        <method signature="ContactTestCases.shouldAddContact()[pri:1, instance:api.testcases.ContactTestCases@6a84a97d]" name="shouldAddContact" class="api.testcases.ContactTestCases"/>
+        <method signature="UserTestCases.shouldAddUser()[pri:1, instance:api.testcases.UserTestCases@22e357dc]" name="shouldAddUser" class="api.testcases.UserTestCases"/>
+        <method signature="ContactTestCases.shouldGetContactList()[pri:2, instance:api.testcases.ContactTestCases@6a84a97d]" name="shouldGetContactList" class="api.testcases.ContactTestCases"/>
+        <method signature="ContactTestCases.shouldGetContact()[pri:3, instance:api.testcases.ContactTestCases@6a84a97d]" name="shouldGetContact" class="api.testcases.ContactTestCases"/>
+        <method signature="UserTestCases.shouldUpdateUserProfile()[pri:3, instance:api.testcases.UserTestCases@22e357dc]" name="shouldUpdateUserProfile" class="api.testcases.UserTestCases"/>
+        <method signature="ContactTestCases.shouldUpdateContact()[pri:4, instance:api.testcases.ContactTestCases@6a84a97d]" name="shouldUpdateContact" class="api.testcases.ContactTestCases"/>
+        <method signature="ContactTestCases.shouldDeleteContact()[pri:6, instance:api.testcases.ContactTestCases@6a84a97d]" name="shouldDeleteContact" class="api.testcases.ContactTestCases"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="ContactTestCases.shouldAddContact()[pri:1, instance:api.testcases.ContactTestCases@6a84a97d]" name="shouldAddContact" class="api.testcases.ContactTestCases"/>
+        <method signature="UserTestCases.shouldAddUser()[pri:1, instance:api.testcases.UserTestCases@22e357dc]" name="shouldAddUser" class="api.testcases.UserTestCases"/>
+        <method signature="ContactTestCases.shouldGetContactList()[pri:2, instance:api.testcases.ContactTestCases@6a84a97d]" name="shouldGetContactList" class="api.testcases.ContactTestCases"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="UserTestCases.shouldAddUser()[pri:1, instance:api.testcases.UserTestCases@22e357dc]" name="shouldAddUser" class="api.testcases.UserTestCases"/>
+      </group> <!-- sanity -->
+      <group name="run-all">
+        <method signature="ContactTestCases.shouldAddContact()[pri:1, instance:api.testcases.ContactTestCases@6a84a97d]" name="shouldAddContact" class="api.testcases.ContactTestCases"/>
+        <method signature="UserTestCases.shouldAddUser()[pri:1, instance:api.testcases.UserTestCases@22e357dc]" name="shouldAddUser" class="api.testcases.UserTestCases"/>
+        <method signature="ContactTestCases.shouldGetContactList()[pri:2, instance:api.testcases.ContactTestCases@6a84a97d]" name="shouldGetContactList" class="api.testcases.ContactTestCases"/>
+        <method signature="ContactTestCases.shouldGetContact()[pri:3, instance:api.testcases.ContactTestCases@6a84a97d]" name="shouldGetContact" class="api.testcases.ContactTestCases"/>
+        <method signature="UserTestCases.shouldUpdateUserProfile()[pri:3, instance:api.testcases.UserTestCases@22e357dc]" name="shouldUpdateUserProfile" class="api.testcases.UserTestCases"/>
+        <method signature="ContactTestCases.shouldUpdateContact()[pri:4, instance:api.testcases.ContactTestCases@6a84a97d]" name="shouldUpdateContact" class="api.testcases.ContactTestCases"/>
+        <method signature="ContactTestCases.shouldDeleteContact()[pri:6, instance:api.testcases.ContactTestCases@6a84a97d]" name="shouldDeleteContact" class="api.testcases.ContactTestCases"/>
+      </group> <!-- run-all -->
+    </groups>
+    <test started-at="2023-10-19T00:42:57 IST" name="Surefire test" finished-at="2023-10-19T00:43:28 IST" duration-ms="30428">
+      <class name="api.testcases.UserTestCases">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.testcases.UserTestCases@22e357dc]" started-at="2023-10-19T00:42:57 IST" name="setUp" finished-at="2023-10-19T00:42:58 IST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldAddUser()[pri:1, instance:api.testcases.UserTestCases@22e357dc]" started-at="2023-10-19T00:42:58 IST" name="shouldAddUser" finished-at="2023-10-19T00:43:07 IST" duration-ms="9104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAddUser -->
+        <test-method signature="shouldUpdateUserProfile()[pri:3, instance:api.testcases.UserTestCases@22e357dc]" started-at="2023-10-19T00:43:07 IST" name="shouldUpdateUserProfile" finished-at="2023-10-19T00:43:08 IST" duration-ms="1562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldUpdateUserProfile -->
+      </class> <!-- api.testcases.UserTestCases -->
+      <class name="api.testcases.ContactTestCases">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.testcases.ContactTestCases@6a84a97d]" started-at="2023-10-19T00:43:08 IST" name="setUp" finished-at="2023-10-19T00:43:10 IST" duration-ms="1679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldAddContact()[pri:1, instance:api.testcases.ContactTestCases@6a84a97d]" started-at="2023-10-19T00:43:10 IST" name="shouldAddContact" finished-at="2023-10-19T00:43:17 IST" duration-ms="6627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAddContact -->
+        <test-method signature="shouldGetContactList()[pri:2, instance:api.testcases.ContactTestCases@6a84a97d]" started-at="2023-10-19T00:43:17 IST" name="shouldGetContactList" finished-at="2023-10-19T00:43:18 IST" duration-ms="1512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldGetContactList -->
+        <test-method signature="shouldGetContact()[pri:3, instance:api.testcases.ContactTestCases@6a84a97d]" started-at="2023-10-19T00:43:18 IST" name="shouldGetContact" finished-at="2023-10-19T00:43:20 IST" duration-ms="1534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldGetContact -->
+        <test-method signature="shouldUpdateContact()[pri:4, instance:api.testcases.ContactTestCases@6a84a97d]" started-at="2023-10-19T00:43:20 IST" name="shouldUpdateContact" finished-at="2023-10-19T00:43:21 IST" duration-ms="1527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldUpdateContact -->
+        <test-method signature="shouldDeleteContact()[pri:6, instance:api.testcases.ContactTestCases@6a84a97d]" started-at="2023-10-19T00:43:21 IST" name="shouldDeleteContact" finished-at="2023-10-19T00:43:28 IST" duration-ms="6551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldDeleteContact -->
+      </class> <!-- api.testcases.ContactTestCases -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

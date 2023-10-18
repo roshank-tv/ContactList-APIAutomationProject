@@ -1,0 +1,13 @@
+<suite name="MySuite">
+    <test name="regression">
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name = "api.testcases.UserTestCases"/>
+            <class name = "api.testcases.ContactTestCases"/>
+        </classes>
+    </test>
+</suite>

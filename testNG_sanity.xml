@@ -1,0 +1,12 @@
+<suite name="MySuite">
+    <test name="sanity">
+        <groups>
+            <run>
+                <include name="sanity"/>
+            </run>
+        </groups>
+        <classes>
+            <class name = "api.testcases.UserTestCases"/>
+        </classes>
+    </test>
+</suite>
