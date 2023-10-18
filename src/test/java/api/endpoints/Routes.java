@@ -16,7 +16,7 @@ public class Routes {
     public static String getContactList = base_url + "contacts";
     public static String getContact = base_url + "contacts/";
     public static String updateContact = base_url + "contacts/";
-    public static String updateContactName = base_url + "contacts/";
+    public static String updateName = base_url + "contacts/";
     public static String deleteContact = base_url + "contacts/";
 
 }
